@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.galeria img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+header {
+    background-image: url(img/img\ de\ fondo.jpg);
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-primario {
+    background-color: #dda72a;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.galeria h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.beneficios h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.testimonios h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contacto-form h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.imagen-primero {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagen-primero img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.beneficios ul {
+    list-style: none;
+    text-align: center;
+}
+
+.beneficios li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.testimonios {
+    background-color: #f0ddc7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonios h2 {
+    font-size: 2.5em;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.contenedor-testimonios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonio {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.testimonio:hover {
+    transform: translateY(-10px);
+}
+
+.testimonio img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.testimonio p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.5;
+}
+
+.testimonio strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #bf426b;
+}
+
+
+.contacto-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contacto-form input{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contacto-form textarea {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contacto-form button {
+    background-color: #dda72a;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta {
+    background-color: #BDC360;
+    color: #fff;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.footer {
+    background-color: #a6ac46;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.redessociales-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redessociales-links a:hover {
+    text-decoration: underline;
+}
